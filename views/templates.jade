@@ -1,0 +1,9 @@
+script(type='text/x-handlebars')
+        {{ outlet }}
+script(type='text/x-handlebars',id='index')
+        <h1>People</h1>
+        <ul>
+        {{#each model}}
+        <li>Hello, <b>{{fullName}}</b>!</li>
+        {{/each}}
+        </ul>

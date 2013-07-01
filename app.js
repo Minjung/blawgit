@@ -6,7 +6,7 @@ var io = require('socket.io').listen(server);
 var port = process.env.PORT || 8080;
 
 server.listen(port, function() {
-        console.log("--- app.listen");
+    console.log("--- app.listen");
 });
 
 app.configure(function() {
